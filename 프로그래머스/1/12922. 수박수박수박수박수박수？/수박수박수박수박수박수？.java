@@ -2,9 +2,7 @@ class Solution {
     public String solution(int n) {
         
         String answer = "";
-        String su = "수";
-        String subak = "수박";
-        
+
         boolean isEven = 
             n % 2 == 0 
             ? true
