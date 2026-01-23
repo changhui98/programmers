@@ -1,0 +1,14 @@
+import java.util.Arrays;
+
+class Solution {
+    public int solution(int[] array) {
+        Arrays.sort(array);
+        
+        int mid = array.length / 2;
+        
+        System.out.println(Arrays.toString(array));
+        
+        int answer = array[mid];
+        return answer;
+    }
+}
